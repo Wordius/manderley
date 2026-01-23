@@ -1,0 +1,27 @@
+# The URL the site will be built for
+base_url = "https://manderley.site"
+title = "Manderley"
+default_language = "en"
+
+# SASS
+
+compile_sass = false
+
+# TAXONOMIES
+
+taxonomies = [
+    { name = "tags", paginate_by = 10, feed = true },
+]
+
+# SEARCH INDEX
+
+build_search_index = true
+
+# MARKDOWN
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-light"
+
+[extra]
+# Put all your custom variables here

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- META -->
+  <title>{{ config.title }}</title>
+  <meta name="description" content="{{ config.description }}">
+  <!-- ICON -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon-1024.png">
+  <!-- RSS -->
+  <link rel="alternate" href="/rss.xml" type="application/rss+xml">
+  <!-- PRELOAD CSS & JS -->
+  <link rel="preload" href="/style.css" as="style" />
+  <link rel="stylesheet" href="/style.css">
+  <!-- SOCIAL MEDIA-->
+  <link rel="me" href="https://mastodon.social/@wordius">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="masthead_outer">
+        <div class="masthead">
+            <a class="banner" href="/">
+                <img class="oval" src="/img/site-logo-manderley.JPG"/>
+            </a>
+            <p class="home-link">
+                <a href="/" class="home-link">Manderley</a>
+            </p>
+        </div>
+            <!--<div class="item">
+            {% if config.build_search_index -%}
+                <div id="on_right">
+                    <span id="search-ico" class="ms-Icon--Search"></span>
+                </div>
+                <div class="search-container">
+                    <input id="search" type="search" placeholder="Search as you type...">
+                    <div class="search-results">
+                        <div class="search-results__header"></div>
+                        <ul class="search-results__items"></ul>
+                    </div>
+                </div>
+            {% endif -%}
+            </div>-->
+
+    </div>
+    </header>
+<section class="wrapper">
+
+        <nav aria-label="Main Navigation" role="navigation">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="hamburger" for="menu-toggle">&#9776;</label>
+            <ul class="menu">
+                <!--<li class="dropdown">
+                    <a href="#">Rules & syntaxes &#8595;</a>
+                    <ul class="submenu">
+                        <li><a href="/rules-or-syntaxes/the-basics">Cheat sheet</a></li>
+                        <li><a href="/rules-or-syntaxes/extended-syntax">Extended</a></li>
+                    </ul>
+                </li>-->
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+        <section class="container">
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        </section><!-- container -->
+
+        <!--<section class="message">
+            <div class="flex_item">
+                <img src="" />
+            </div>
+            <div class="flex_item words">
+                <h3>Download the<br>cheat sheet</h3>
+                <p>Some wording here. You can include a maximum of 30 words in your message to our readers. 90 characters</p>
+            </div>
+        </section>-->
+</section><!-- wrapper -->
+
+{% include "partials/footer.html" %}
+
+</body>
+
+</html>

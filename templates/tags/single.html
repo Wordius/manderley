@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1 class="section-title">{{ term.name }}</h1>
+
+  <ul class="postlist">
+    {% for page in term.pages | sort(attribute="date") | reverse %}
+    <li class="postlist-item">
+      {% if page.date %}
+      <div class="date">
+        <time class="postlist-date">{{ page.date | date(format="%d %B %Y") }}</time>
+      </div>
+      {% endif %}
+      <h2 class="postlist-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      <!--<p class="postlist-description">{{ page.description }}</p>-->
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% endblock content %}

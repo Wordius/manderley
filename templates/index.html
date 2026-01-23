@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+  {% block content %}
+  
+  
+  <section class="page-intro">
+    <p class="large">I am a gardener and journalist, and this is my travelog. It also includes miscellaneous notes, mainly to myself. More in the <a href="/about">about</a> page.</p>
+  </section>
+  
+  <h2 class="section-title">Latest travel notes</h2>
+ 
+  {% set post_section = get_section(path="blog/_index.md") %}
+  {% set limit = 3 %}
+  <ul class="postlist">
+    {% for post in post_section.pages %}
+      {% if loop.index <= limit %}
+    <li class="postlist-item">
+      <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+      <h2 class="postlist-title">
+            <a href="{{ post.permalink }}">{{ post.title }}</a>
+      </h2>
+      <!--<p class="postlist-description">{{ post.description }}</p>-->
+    </li>
+  {% if not loop.index == limit %}
+  {% endif %}
+  </ul>  
+  {% endif %}
+  {% endfor %}
+
+  <p><a href="/blog/">More in the blog</a></p>
+    
+    {{ section.content |safe }}
+  
+  {% endblock content%}
