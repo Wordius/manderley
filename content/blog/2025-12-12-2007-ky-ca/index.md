@@ -1,5 +1,5 @@
 +++
-title = "2007: Kentucky to California"
+title = "2007: USA – Kentucky to California"
 description = "Our 2007 trip to the US saw us drive across the continent. Almost"
 date = 2007-08-01
 updated = 2025-12-12 
