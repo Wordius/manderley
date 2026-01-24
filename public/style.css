@@ -445,14 +445,13 @@ small {
 .post-nav a:hover {
   color: var(--accent-color-hover);
 }
-.post-meta, .post-nav {
+.post-meta, .post-nav, .postlist-nav {
   font-family: var(--font-family-sans);
 }
 .post-meta p {
   padding-bottom: 3rem;
 }
 .postlist-nav {
-  font-family: var(--font-family-sans);
   font-size: small;
 }
 
