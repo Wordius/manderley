@@ -368,14 +368,13 @@ article h4 {
 }
 article a {
   color: var(--link-color);
-  text-decoration: underline;
-  text-decoration-color: var(--border-link-color);
-  /*border-bottom: 1px solid var(--border-link-color);*/
+  text-decoration: none;
 }
 article a:hover {
   color: var(--link-color-hover);
-  text-decoration-color: var(--border-link-color-hover);
-  /*border-bottom: 1px solid var(--border-link-color-hover);*/
+  text-underline-offset: .2rem;
+  text-decoration-line: underline;
+  text-decoration-color: var(--link-color-hover);
 }
 .post-title {
   padding-top: 1.5rem;
