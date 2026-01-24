@@ -19,7 +19,7 @@ As I have learned, you have to visit a place to understand it; allow the place t
 
 We were headed to Sotogrande, San Roque in Spain, an hour and a bit along the south coast from Malaga airport. Naturally, you have to pass by Torremelinos en route. But thankfully we were in our friends’ Porsche Cayenne S E-Hybrid in the fast lane on the motorway passing by. 
 
-{{ image(path="IMG_1076.webp", caption="Living space: the apartment’s luxurious living space offers a view to the outside. Three sides, in fact") }}
+{{ image(path="IMG_1076.webp", caption="Living space: the apartment’s luxurious living space offers a view to the outside") }}
 
 Our friend’s apartment was luxurious. It was a ground floor, end apartment with three en-suite bedrooms and a bathroom that led off the entrance hallway. This, in turn, connected with the large living, dining and kitchen space, surrounded by views of the garden. For what it’s worth, one of the penthouses on the third floor of the block opposite is owned by an ex-England footballer. That should tell you something. There are a number of blocks all, apparently, with the same configuration: three floors, eight units per block, with two penthouses sharing the top floor.
 

@@ -118,6 +118,14 @@ blockquote p:last-of-type {
 hr.rule {
  margin-top: 3rem;
 }
+a {
+  color: var(--accent-color);
+}
+a:hover {
+  color: var(--accent-color-hover);
+  text-decoration: underline;
+  text-underline-offset: .2rem;
+}
 
 /* HEADER */
 
@@ -375,7 +383,7 @@ article a:hover {
 .info {
   background-color: var(--accent-color-hover);
   padding: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .info h3 {
   color: var(--accent-color);
@@ -439,6 +447,13 @@ small {
 }
 .post-meta, .post-nav {
   font-family: var(--font-family-sans);
+}
+.post-meta p {
+  padding-bottom: 3rem;
+}
+.postlist-nav {
+  font-family: var(--font-family-sans);
+  font-size: small;
 }
 
 /* TABLE */
