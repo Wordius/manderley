@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://manderley.site"
+base_url = "https://manderley.es"
 title = "Manderley"
 default_language = "en"
 
