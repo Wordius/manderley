@@ -15,29 +15,29 @@
 
 @font-face {
     font-family: lato;
-    src: url('fonts/lato-regular.ttf') format('woff2'),
-         url('fonts/lato-regular.ttf') format('woff');
+    src: url('fonts/Lato-Regular.ttf') format('woff2'),
+         url('fonts/Lato-Regular.ttf') format('woff');
     font-style: normal;
     font-weight: 400;
   }  
   @font-face {
     font-family: lato;
-    src: url('/fonts/lato-italic.ttf') format('woff2'),
-         url('/fonts/lato-italic.ttf') format('woff');
+    src: url('/fonts/Lato-Italic.ttf') format('woff2'),
+         url('/fonts/Lato-Italic.ttf') format('woff');
     font-style: italic;
     font-weight: 400;
   }  
   @font-face {
     font-family: lato;
-    src: url('fonts/lato-bold.ttf') format('woff2'),
-         url('fonts/lato-bold.ttf') format('woff');
+    src: url('fonts/Lato-Bold.ttf') format('woff2'),
+         url('fonts/Lato-Bold.ttf') format('woff');
     font-weight: 700;
     font-style: normal;
   }  
   @font-face {
     font-family: lato;
-    src: url('/fonts/lato-bolditalic.ttf') format('woff2'),
-         url('/fonts/lato-bolditalic.ttf') format('woff');
+    src: url('/fonts/Lato-BoldItalic.ttf') format('woff2'),
+         url('/fonts/Lato-BoldItalic.ttf') format('woff');
     font-weight: 700;
     font-style: italic;
   }
@@ -46,22 +46,22 @@
 
 @font-face {
     font-family: lora;
-    src: url('fonts/lora-regular.ttf') format('woff2'),
-         url('fonts/lora-regular.ttf') format('woff');
+    src: url('fonts/Lora-Regular.ttf') format('woff2'),
+         url('fonts/Lora-Regular.ttf') format('woff');
     font-style: normal;
     font-weight: 400;
   }  
   @font-face {
     font-family: lora;
-    src: url('/fonts/lora-italic.ttf') format('woff2'),
-         url('/fonts/lora-italic.ttf') format('woff');
+    src: url('/fonts/Lora-Italic.ttf') format('woff2'),
+         url('/fonts/Lora-Italic.ttf') format('woff');
     font-style: italic;
     font-weight: 400;
   }  
   @font-face {
     font-family: lora;
-    src: url('/fonts/lora-medium.ttf') format('woff2'),
-         url('/fonts/lora-medium.ttf') format('woff');
+    src: url('/fonts/Lora-Medium.ttf') format('woff2'),
+         url('/fonts/Lora-Medium.ttf') format('woff');
     font-style: normal;
     font-weight: 500;
   }
@@ -74,15 +74,15 @@
   }
   @font-face {
     font-family: lora;
-    src: url('fonts/lora-bold.ttf') format('woff2'),
-         url('fonts/lora-bold.ttf') format('woff');
+    src: url('fonts/Lora-Bold.ttf') format('woff2'),
+         url('fonts/Lora-Bold.ttf') format('woff');
     font-weight: 700;
     font-style: normal;
   }
     @font-face {
     font-family: lora;
-    src: url('/fonts/lato-bolditalic.ttf') format('woff2'),
-         url('/fonts/lato-bolditalic.ttf') format('woff');
+    src: url('/fonts/Lora-BoldItalic.ttf') format('woff2'),
+         url('/fonts/Lora-BoldItalic.ttf') format('woff');
     font-weight: 700;
      font-style: italic;
   }
