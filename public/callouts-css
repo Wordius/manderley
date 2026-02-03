@@ -1,0 +1,10 @@
+ul.info-list {
+  font-family: var(--font-family-sans);
+  font-size: var(--small);
+  padding-bottom: 3rem;
+  margin-left: 1rem;
+  list-style-type: square;
+}
+.info-list li::marker {
+  color: var(--accent-color);
+}

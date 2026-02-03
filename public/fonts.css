@@ -1,0 +1,167 @@
+@font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_R_45b.oft') format('woff2'),
+          url('/fonts/Fontin_Sans_R_45b.otf') format('woff');
+      font-style: normal;
+   }
+   
+   @font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_I_45b.otf') format('woff2'),
+          url('/fonts/Fontin_Sans_I_45b.otf') format('woff');
+     font-style: italic;
+   }
+   
+   @font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Font_Sans_B_45Bb.otf') format('woff2'),
+          url('/fonts/Fontin_Sans_B_45b.otf') format('woff');
+     font-style: normal;
+     font-weight: 700;
+   }
+   
+   @font-face {
+     font-family: Fontin_Sans_49;
+     src: url('/fonts/Fontin_Sans_BI_45b.ttf') format('woff2'),
+          url('/fonts/Fontin_Sans_BI_45b.ttf') format('woff');
+      font-style: italic;
+     font-weight: 700;
+   }
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Regular.ttf') format('woff2'),
+          url('/fonts/Fontin-Regular.ttf') format('woff');
+      font-style: normal;
+     font-weight: 400;
+   }
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Italic.ttf') format('woff2'),
+          url('/fonts/Fontin-Italic.ttf') format('woff');
+      font-style: italic;
+     font-weight: 400;
+   }
+   @font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-Bold.ttf') format('woff2'),
+          url('/fonts/Fontin-Bold.ttf') format('woff');
+      font-style: bold;
+     font-weight: 700;
+   }
+   /*@font-face {
+     font-family: Fontin;
+     src: url('/fonts/Fontin-SmallCaps.ttf') format('woff2'),
+          url('/fonts/Fontin-SmallCaps.ttf') format('woff');
+     font-variant-caps: small-caps;
+     font-weight: 400;
+    }*/
+
+  @font-face {
+    font-family: IM Fell;
+  src: url('/fonts/IMFellEnglish-Regular.ttf') format('woff2'),
+       url('/fonts/IMFellEnglish-Regular.ttf') format('woff');
+  font-style: normal;
+}
+  @font-face {
+    font-family: IM Fell;
+  src: url('/fonts/IMFellEnglish-Italic.ttf') format('woff2'),
+       url('/fonts/IMFellEnglish-Italic.ttf') format('woff');
+  font-style: italic;
+}
+
+/* LATO */
+
+@font-face {
+    font-family: lato;
+    src: url('/fonts/lato-regular.ttf') format('woff2'),
+         url('/fonts/lato-regular.ttf') format('woff');
+    font-style: normal;
+    /*font-feature-settings: onum;*/
+  }
+  
+  @font-face {
+    font-family: lato;
+    src: url('/fonts/lato-italic.ttf') format('woff2'),
+         url('/fonts/lato-italic.ttf') format('woff');
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: lato;
+    src: url('/fonts/lato-bold.ttf') format('woff2'),
+         url('/fonts/lato-bold.ttf') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: lato;
+    src: url('/fonts/lato-bolditalic.ttf') format('woff2'),
+         url('/fonts/lato-bolditalic.ttf') format('woff');
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+     font-family: lato;
+     src: url('/fonts/lato-black.ttf') format('woff2'),
+          url('/fonts/lato-black.ttf') format('woff');
+     font-weight: 900;
+     font-style: normal;
+   }
+   @font-face {
+     font-family: lato;
+     src: url('/fonts/lato-blackitalic.ttf') format('woff2'),
+          url('/fonts/lato-blackitalic.ttf') format('woff');
+     font-weight: 900;
+     font-style: italic;
+   }
+   
+/* LORA */
+
+@font-face {
+    font-family: lora;
+    src: url('/fonts/lora-regular.ttf') format('woff2'),
+         url('/fonts/lora-regular.ttf') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: onum;
+  }
+  
+  @font-face {
+    font-family: lora;
+    src: url('/fonts/lora-italic.ttf') format('woff2'),
+         url('/fonts/lora-italic.ttf') format('woff');
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: lora;
+    src: url('/fonts/lora-medium.ttf') format('woff2'),
+         url('/fonts/lora-medium.ttf') format('woff');
+    font-style: normal;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: lora;
+    src: url('/fonts/lora-mediumitalic.ttf') format('woff2'),
+         url('/fonts/lora-mediumitalic.ttf') format('woff');
+    font-style: italic;
+    font-weight: 500;
+  }
+
+@font-face {
+    font-family: lora;
+    src: url('/fonts/lora-bold.ttf') format('woff2'),
+         url('/fonts/lora-bold.ttf') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: lora;
+    src: url('/fonts/lato-bolditalic.ttf') format('woff2'),
+         url('/fonts/lato-bolditalic.ttf') format('woff');
+    font-weight: 700;
+     font-style: italic;
+  }
