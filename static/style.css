@@ -232,14 +232,20 @@ nav {
 }
 
 @media (max-width: 768px) {
+
+  nav {
+    padding-bottom: 1rem;
+  }
+
   .hamburger {
     display: block;
-    font-size: var((--x-large));
-    color: #333;
+    width: 20px;
+    height: 20px;
+    color: #777;
     background: none;
     border: none;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .menu {
     display: none;
@@ -579,7 +585,6 @@ ul.social li {
 img {
 	max-inline-size: 100%;
 	height: auto;
-  filter: drop-shadow(#555 0.5rem 0.5rem .5rem);
 }
 figure {
 	padding: 0 0 2rem 0;
@@ -587,7 +592,7 @@ figure {
 figcaption {
 	font-family: var(--font-family-sans);
 	font-size: var(--medium);
-  padding-top: .75rem;
+  padding-top: .5rem;
 }
 .page-image {
 	padding-bottom: 3rem;
