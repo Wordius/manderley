@@ -27,8 +27,10 @@
   {% endif %}
   {% endfor %}
 
-  <p><a href="/blog/">More in the blog</a></p>
-    
+  <p class="more"><a href="/blog/">More in the blog</a></p>
+  
+  <div class="travel-list">
     {{ section.content |safe }}
+  </div>
   
   {% endblock content%}

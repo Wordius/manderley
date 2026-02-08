@@ -126,6 +126,18 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: .2rem;
 }
+.more {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 3rem;
+}
+.travel-list h2 {
+  padding-bottom: 1rem;
+}
+
+.travel-list p {
+  padding-bottom: 1rem;
+}
 
 /* HEADER */
 
@@ -340,6 +352,7 @@ article, .blog {
 	max-width: var(--line-length);
 }
 .section-title {
+  font-size: var(--xxx-large);
   padding-bottom: 3rem;
 }
 article p, article ol, article ul {
