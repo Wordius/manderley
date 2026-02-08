@@ -4,7 +4,7 @@ title = "Home"
 
 ## Destinations
 
-As my brain shrinks and memories, along with eyesight, fade I wanted to write about the trips I have taken, sometimes endured, throughout my brief blip on this planet. I have not written about everywhere I have been, especially in the UK, but most places are covered. These destinations hold particular memories for me. Those I have already written about are linked.
+As my brain shrinks and memories, along with eyesight, fade I wanted to write about the trips I have taken, sometimes endured, throughout my brief blip on this planet. I have not written about everywhere I have been, especially in the UK, but most places are covered. Those that are hold particular memories for me. If I have written about them they are linked.
 
 I hope to add to this list from where we are now, in late 2025:
  
