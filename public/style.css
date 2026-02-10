@@ -134,11 +134,12 @@ a:hover {
 .travel-list h2 {
   padding-bottom: 1rem;
 }
-
 .travel-list p {
   padding-bottom: 1rem;
 }
-
+.travel-list ul {
+  margin-left: 1rem;
+}
 /* HEADER */
 
 .banner {
@@ -675,7 +676,7 @@ p:has(+ figure), figure:has(+ p) {
   /*body {
     font-size: var(--medium);
   }*/
-  p {
+  p, .travel-list ul {
     font-size: var(--medium);
   }
   .travel-list ul {
