@@ -29,7 +29,7 @@
                 <img class="oval" src="/img/site-logo-manderley.JPG"/>
             </a>
             <p class="home-link">
-                <a href="/" class="home-link">Manderley</a>
+                <a href="/">Manderley</a>
             </p>
         </div>
             <!--<div class="item">
@@ -46,28 +46,28 @@
                 </div>
             {% endif -%}
             </div>-->
+    <div class="dropdown">
+        <input type="checkbox" id="checkbox_toggle">
+        <label for="checkbox_toggle" class="hamburger">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </label>
+        <nav aria-label="Main Navigation" role="navigation">
+            <ul class="menu">
+            {% if config.extra.nav_items %}
+            {% for item in config.extra.nav_items %}
+                <li><a href="{{ get_url(path=item.url) }}">{{ item.name }}</a></li>
+            {% endfor %}
+            {% endif %}
+            </ul>
+        </nav>
+    </div>
 
         </div>
     </header>
 <section class="wrapper">
-
-        <nav aria-label="Main Navigation" role="navigation">
-            <input id="menu-toggle" type="checkbox" />
-            <label class="hamburger" for="menu-toggle"><img src="/img/hamburger.png"></label>
-            <ul class="menu">
-                <!--<li class="dropdown">
-                    <a href="#">Rules & syntaxes &#8595;</a>
-                    <ul class="submenu">
-                        <li><a href="/rules-or-syntaxes/the-basics">Cheat sheet</a></li>
-                        <li><a href="/rules-or-syntaxes/extended-syntax">Extended</a></li>
-                    </ul>
-                </li>-->
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-
+    
         <section class="container">
         <main>
             {% block content %}

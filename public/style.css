@@ -146,8 +146,8 @@ a:hover {
   padding-top: 2rem;
 }
 .home-link {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 	font-family: var(--font-family-display);
 	font-size: var(--xxx-large);
 	font-weight: 700;
@@ -157,8 +157,13 @@ a:hover {
 	text-decoration: none;
 	color:#fff;
 }
-.home-link:hover {
+.home-link a {
+  color: #fff;
+  text-decoration: none;
+}
+.home-link a:hover {
 	color: var(--accent-color-hover);
+  text-decoration: underline;
 }
 .masthead {
   display: flex;
@@ -166,161 +171,9 @@ a:hover {
   background-color: var(--accent-color); /*yellowgreen;*/
 	padding: 1rem 0;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
 }
 .masthead_outer {
   background-color: var(--accent-color); /*yellowgreen;*/
-}
-
-nav {
-  padding-bottom: 3rem;
-  padding-top: 1rem;
-}
-.menu {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  margin-block-start: 0;
-  padding-left: 0;
-  justify-content: center;
-}
-.menu li {
-  font-family: var(--font-family-display);
-  font-size: var(--medium);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  position: relative;
-  margin-left: 1rem;
-}
-.menu li:first-of-type {
-  margin-left: 0;
-  padding-left: 0;
-}
-.menu a {
-  display: block;
-  padding-left: 0;
-  transition: background 0.3s, color 0.3s;
-  color: var(--link-color);
-  text-decoration: none;
-  white-space: nowrap;
-}
-.menu li a {
-  color: var(--accent-color);
-}
-.menu li a:hover {
-  color: var(--accent-color-hover);
-  text-decoration: underline;
-  text-underline-offset: .3rem;
-  text-decoration-color: var(--accent-color);
-}
-.menu li:hover > a {
-  color: var(--accent-color-hover);
-}
-/*.menu li:hover > a::after {
-  content: " &rarr;";
-}*/
-
-.submenu,
-.submenu-right {
-  display: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-  /*min-width: 160px;*/
-  background-color: var(--background-color);
-  padding-right: 1rem;
-  list-style: none;
-  z-index: 1;
-}
-.submenu-right {
-  width: 300px;
-}
-.submenu li:first-of-type {
-  padding-left: 1rem;
-}
-.submenu li a:hover {
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-
-  nav {
-    padding-bottom: 1rem;
-  }
-
-  .hamburger {
-    display: block;
-    width: 20px;
-    height: 20px;
-    color: #777;
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20px;
-  }
-  .menu {
-    display: none;
-    flex-direction: column;
-    width: auto;  
-    /*background: #f2f2f2;*/
-  }
-  .menu li:first-of-type {
-    margin-left: 1rem;
-  }
-  #menu-toggle {
-    display: none;
-  }
-  #menu-toggle:checked + label + ul {
-    display: flex;
-  }
-  .menu li {
-    width: auto;
-  }
-  .submenu,
-  .submenu-right {
-    position: static;
-    display: none;
-    padding-left: 20px;
-  }
-  .submenu li:first-of-type {
-    margin-left: 0;
-  }
-  .menu li:hover > .submenu,
-  .submenu li:hover > .submenu-right {
-    display: block;
-  }
-  .submenu .dropdown > a::after {
-    content: "▸";
-    float: right;
-  }
-  .submenu .dropdown:hover > a::after {
-    content: "▼";
-  }
-}
-
-@media (min-width: 767px) {
-  .menu li:hover > .submenu {
-    display: block;
-    top: 100%;
-    left: 0;
-  }
-  .submenu li:hover > .submenu-right {
-    display: block;
-    top: 0;
-    left: 100%;
-  }
-  .submenu .dropdown > a:after {
-    content: "▸";
-    float: right;
-  }
-  .submenu .dropdown:hover > a::after {
-    content: "▼";
-  }
-  .hamburger, #menu-toggle {
-    display: none;
-  }
 }
 
 /* TOC */
@@ -612,6 +465,7 @@ figcaption {
 	padding-bottom: 3rem;
 }
 .oval {
+  margin-bottom: 1rem;
   width: 160px;
   height: 80px;
   border-radius: 50%;
@@ -664,18 +518,21 @@ p:has(+ figure), figure:has(+ p) {
   .words {
     text-align: center;
   }
-  .masthead {
-    flex-direction: row;
-  }  
+.banner {
+    padding-top: 1rem;
+}
   .home-link {
     font-size: var(--xx-large);
-    text-align: center;
-    padding-left: .5rem;
-    padding-top: 3rem;
+    text-align: left;
+    margin-left: 1rem;
+    padding-top: 1.5rem;
   }
-  /*body {
-    font-size: var(--medium);
-  }*/
+  .oval {
+    width: 100px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
   p, .travel-list ul {
     font-size: var(--medium);
   }
@@ -684,9 +541,5 @@ p:has(+ figure), figure:has(+ p) {
   }
   figcaption {
     font-size: var(--x-small);
-  }
-  .oval {
-    width: 100px;
-    height: 50px;
   }
 }

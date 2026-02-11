@@ -1,32 +1,122 @@
-.menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+/* Thanks to Dan Powell for the menu suggestion on Codepen – @bloom-dan */
+
+input[type=checkbox] {
+  display: none;
 }
- 
-.menu li {
-    position: relative;
+nav {
+    background-color: var(--background-color);
+    padding-bottom: 3rem;
+    padding-top: 1rem;
 }
- 
-.menu li a {
-    display: block;
-    padding-bottom: 10px;
+nav ul {
+    margin: 0 auto;
+    width: var(--line-length);
+}
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+nav li:first-of-type {
+    margin-left: 0;
+}
+nav li a {
     text-decoration: none;
-    color: #333;
 }
- 
-.dropdown .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
+nav li a:hover {
+    text-decoration: underline;
 }
- 
-.dropdown:hover .submenu {
-    display: block;
+
+
+@media (max-width: 768px) {
+nav {
+        padding-bottom: 1.5rem;
+    }
+nav ul {
+  max-height: 0px;
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  transition: all 1s cubic-bezier(.325, 1, .22, 1);
+}
+
+nav li {
+    display: flex;
+    margin: 0 1rem;
+    font-family: var(--font-family-serif);
+    border-bottom: .1rem solid #c0c0c0;
+    color: #000;
+    font-size: var(--large);
+    padding: .5rem 0;
+    justify-content: left;
+}
+nav li:first-of-type {
+    margin-left: 1rem;
+}
+nav li:last-of-type {
+  margin-bottom: 1.5rem;
+}
+nav li a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+
+input[type=checkbox]:checked ~ nav ul {
+  height: auto;
+  max-height: 12rem;
+  transition: all 1s cubic-bezier(.5, 1, .22, 1);
+}
+
+.hamburger {
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 13px;
+  height: 27px;
+  width: 27px;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(.19, 1, .22, 1);
+}
+
+.line {
+  position: absolute;
+  display: block;
+  background: var(--background-color);
+  width: 18px;
+  height: .15rem;
+  border-radius: .2rem;
+  left: 0;
+  transition: all .6s cubic-bezier(.5, .1, 0, 1.2);
+}
+
+.line-1 {
+  top: 0;
+}
+
+.line-2 {
+  top: 7px;
+  /*width: 14px;*/
+  /*transform: translateX(2px);
+  -webkit-transform: translateX(2px);*/
+}
+
+.line-3 {
+  top: 14px;
+}
+
+input[type=checkbox]:checked ~ label .line-1 {
+  top: 0px;
+  width: 22px;
+  transform: translateX(-11px) rotate(-45deg) translateY(12px);
+}
+input[type=checkbox]:checked ~ label .line-2 {
+  opacity: 0;
+}
+input[type=checkbox]:checked ~ label .line-3 {
+    top: 14px;
+    width: 22px;
+    transform: translateX(-8px) rotate(45deg) translateY(-8px);
+    }
 }

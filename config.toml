@@ -24,4 +24,13 @@ highlight_code = true
 highlight_theme = "base16-ocean-light"
 
 [extra]
-# Put all your custom variables here
+nav_items = [
+    { name = "Blog", url = "/blog" },
+    { name = "About", url = "/about" },
+    { name = "Contact", url = "/contact" }
+]
+# nav_footer = [
+#    { name = "RSS", url = "/rss.xml" },
+#    { name = "Privacy", url = "/privacy" },
+#    { name = "About", url = "/about" }
+#]
