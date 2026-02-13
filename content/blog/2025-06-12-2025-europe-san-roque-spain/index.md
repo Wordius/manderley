@@ -1,5 +1,5 @@
 +++
-title = "2025: Europe – San Roque, Spain"
+title = "2025: Spain – San Roque"
 description = "This is our first visit to Spain, and a real eye opener"
 date = 2025-06-12
 updated = 2026-01-15
